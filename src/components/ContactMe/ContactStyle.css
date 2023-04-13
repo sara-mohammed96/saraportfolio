@@ -1,0 +1,107 @@
+.containerConnect {
+  text-align: center;
+ 
+}
+.ContainerIcons {
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+  margin-bottom: 3%;
+
+}
+.letsConnect{
+  font-size: 45px;
+	font-weight: 700;
+  text-align: center;
+  margin-top:3%;
+ 
+}
+.textConnect{
+  text-align: center;
+  padding:4% 30%;
+  font-size: large;
+  color: #8892b0;
+
+}
+
+.social-icon1 {
+  display: inline-block;
+ 
+  
+}
+.social-icon1 a {
+
+  width: 72px;
+  height: 72px;
+  background: rgba(217, 217, 217, 0.1);
+  display: inline-flex;
+  border-radius: 50%;
+  margin-right: 10px;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.social-icon1 a::before {
+  content: "";
+  width: 72px;
+  height: 72px;
+  position: absolute;
+  background-color: #ffffff;
+  border-radius: 50%;
+  transform: scale(0);
+transition: 0.3s ease-in-out;
+}
+.social-icon1 a:hover::before {
+  transform: scale(1);
+}
+.social-icon1 a img {
+width: 40%;
+z-index: 1;
+transition: 0.3s ease-in-out;
+}
+.social-icon1 a:hover img {
+filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
+}
+.buttonContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:3%;
+}
+
+.button {
+
+  font-weight: 700;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 18px 34px;
+  font-size: 18px;
+ text-decoration: none;
+	position: relative;
+	background-color: transparent;
+	transition: 0.3s ease-in-out;
+}
+ .button span {
+  z-index: 1;
+}
+ .button::before {
+  content: "";
+  width: 0%;
+  height: 100%;
+  position: absolute;
+  background-color: #fff;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  transition: 0.3s ease-in-out;
+}
+ .button:hover {
+  color: #121212;
+}
+.button:hover::before {
+	content: "";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
