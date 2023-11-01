@@ -1,15 +1,19 @@
 {
   "files": {
-    "main.css": "/saraportfolio/static/css/main.06a254eb.css",
-    "main.js": "/saraportfolio/static/js/main.63bd888d.js",
+    "main.css": "/saraportfolio/static/css/main.537bd794.css",
+    "main.js": "/saraportfolio/static/js/main.87f4fb12.js",
     "static/js/787.7efd31bd.chunk.js": "/saraportfolio/static/js/787.7efd31bd.chunk.js",
+    "static/media/haunted-house1.png": "/saraportfolio/static/media/haunted-house1.03cbd6e58ceddbd7990f.png",
     "static/media/resturantProject1.png": "/saraportfolio/static/media/resturantProject1.25cb77b527c2b3ee1883.png",
+    "static/media/wave.png": "/saraportfolio/static/media/wave.944d892428a974a7a9e4.png",
     "static/media/meta1.png": "/saraportfolio/static/media/meta1.65f07cb86904754ea272.png",
     "static/media/gym1.png": "/saraportfolio/static/media/gym1.dd92854cb6724e8bd56f.png",
     "static/media/modernDesign.png": "/saraportfolio/static/media/modernDesign.c1e7d22b67957c8d4ea0.png",
     "static/media/color-sharp.png": "/saraportfolio/static/media/color-sharp.bea361cfef80fefc2d1e.png",
+    "static/media/galaxy.png": "/saraportfolio/static/media/galaxy.7622d5ffe8bd07ce5eb8.png",
     "static/media/color-sharp2.png": "/saraportfolio/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
     "static/media/gym22.png": "/saraportfolio/static/media/gym22.19355411b7a3879e4f5e.png",
+    "static/media/falling-snow.png": "/saraportfolio/static/media/falling-snow.8c4b089a3b54e10239a7.png",
     "static/media/crypto2.png": "/saraportfolio/static/media/crypto2.9cc82a89893860196f46.png",
     "static/media/banner-bg.png": "/saraportfolio/static/media/banner-bg.cc1273af450504afe755.png",
     "static/media/dashboard3.png": "/saraportfolio/static/media/dashboard3.4e03a06916b83ea90c0e.png",
@@ -18,7 +22,8 @@
     "static/media/CentraNo2-Medium.ttf": "/saraportfolio/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/saraportfolio/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
     "static/media/footer-bg.png": "/saraportfolio/static/media/footer-bg.7bd67c0f73571d0acc02.png",
-    "static/media/cv.pdf": "/saraportfolio/static/media/cv.985a09261b5e18ca3c02.pdf",
+    "static/media/cv.pdf": "/saraportfolio/static/media/cv.295806ef29ae2ea08587.pdf",
+    "static/media/nodejs.png": "/saraportfolio/static/media/nodejs.c580880cda32187e07e1.png",
     "static/media/revicons.eot": "/saraportfolio/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/saraportfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/saraportfolio/static/media/revicons.e8746a624ed098489406.woff",
@@ -29,14 +34,13 @@
     "index.html": "/saraportfolio/index.html",
     "static/media/nav-icon1.svg": "/saraportfolio/static/media/nav-icon1.dff40ae802524d8fc0cbce3f312abe4f.svg",
     "static/media/nav-icon2.svg": "/saraportfolio/static/media/nav-icon2.f3e1537071c22234f3c34a58cde56bff.svg",
-    "static/media/arrow2.svg": "/saraportfolio/static/media/arrow2.b3d03e1b04ec1904a5658aea5776433c.svg",
     "static/media/arrow1.svg": "/saraportfolio/static/media/arrow1.1088f8313e5637897aff2414e5938141.svg",
-    "main.06a254eb.css.map": "/saraportfolio/static/css/main.06a254eb.css.map",
-    "main.63bd888d.js.map": "/saraportfolio/static/js/main.63bd888d.js.map",
+    "main.537bd794.css.map": "/saraportfolio/static/css/main.537bd794.css.map",
+    "main.87f4fb12.js.map": "/saraportfolio/static/js/main.87f4fb12.js.map",
     "787.7efd31bd.chunk.js.map": "/saraportfolio/static/js/787.7efd31bd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.06a254eb.css",
-    "static/js/main.63bd888d.js"
+    "static/css/main.537bd794.css",
+    "static/js/main.87f4fb12.js"
   ]
 }
