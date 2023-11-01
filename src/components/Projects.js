@@ -8,6 +8,10 @@ import dashboard from "../assets/img/dashboard3.png";
 import projImg3 from "../assets/img/resturantProject1.png";
 import metaverse from "../assets/img/meta1.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
+import hauntedHouse from "../assets/img/haunted-house1.png";
+import fallingSnow from "../assets/img/falling-snow.png";
+import wave from "../assets/img/wave.png";
+import galaxy from "../assets/img/galaxy.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -56,6 +60,8 @@ export const Projects = () => {
       liveDemoUrl:"https://2a6ee04e.fitness-application-3zw.pages.dev/",
       githubUrl:"https://github.com/sara-mohammed96/Fitness-Application"
     },
+
+    
     
   ];
 
@@ -71,6 +77,38 @@ export const Projects = () => {
       githubUrl:"https://github.com/sara-mohammed96/metaversus"
     },
     
+  ];
+
+  const projects3 = [
+    
+    {
+      title: "Haunted House",
+      description: "#THREE JS",
+      imgUrl: hauntedHouse,
+      liveDemoUrl:"https://haunted-house-threejs-tau.vercel.app/",
+      githubUrl:"https://github.com/sara-mohammed96/haunted-house-threejs"
+    },
+    {
+      title: "Falling Snow Particles",
+      description: "#THREE JS",
+      imgUrl: fallingSnow,
+      liveDemoUrl:"https://falling-snow-threejs.vercel.app/",
+      githubUrl:"https://github.com/sara-mohammed96/falling-snow-threejs"
+    },
+    {
+      title: "Particles Wave",
+      description: "#THREE JS",
+      imgUrl: wave,
+      liveDemoUrl:"  https://particles-wave-threejs-2dz2p4zae-sara-mohammed96.vercel.app/",
+      githubUrl:"https://github.com/sara-mohammed96/particles-wave-threejs"
+    },
+    {
+      title: "Galaxy Particles",
+      description: "#THREE JS",
+      imgUrl: galaxy,
+      liveDemoUrl:"https://galaxy-threejs-seven.vercel.app/",
+      githubUrl:"https://github.com/sara-mohammed96/galaxy-threejs"
+    },
   ];
 
   return (
@@ -125,7 +163,18 @@ export const Projects = () => {
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                    
+                    <Row>
+                        {
+                          projects3.map((project, index) => {
+                            return (
+                              <ProjectCard
+                                key={index}
+                                {...project}
+                                />
+                            )
+                          })
+                        }
+                      </Row>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>

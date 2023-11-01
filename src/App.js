@@ -6,7 +6,7 @@ import { Skills } from "./components/Skills";
 import { Projects } from "./components/Projects";
 import ContactMe from './components/ContactMe/ContactMe';
 import Experience from './components/experience/Experience';
-
+import WorldCloud from "./components/skillsCloud/WorldCloud";
 
 function App() {
   return (

@@ -4,7 +4,7 @@ import meter3 from "../assets/img/meter3.svg";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import arrow1 from "../assets/img/arrow1.svg";
-import arrow2 from "../assets/img/arrow2.svg";
+import nodejs from "../assets/img/nodejs.png";
 import colorSharp from "../assets/img/color-sharp.png"
 
 export const Skills = () => {
@@ -52,6 +52,10 @@ export const Skills = () => {
                             <div className="item">
                                 <img src="https://cdn-icons-png.flaticon.com/512/919/919832.png" alt="Image" />
                                 <h5>TypeScript</h5>
+                            </div>
+                            <div className="item" >
+                                <img src={nodejs} alt="Image" style={{width:'200px', height:'150px'}}/>
+                                <h5>Node Js</h5>
                             </div>
                             <div className="item">
                                 <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--FE-T9InO--/c_imagga_scale,f_auto,fl_progressive,h_1080,q_auto,w_1080/https://thepracticaldev.s3.amazonaws.com/i/cytueiukmj0yyiomk0i3.png" alt="Image" />
