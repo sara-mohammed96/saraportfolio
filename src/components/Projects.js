@@ -12,6 +12,7 @@ import hauntedHouse from "../assets/img/haunted-house1.png";
 import fallingSnow from "../assets/img/falling-snow.png";
 import wave from "../assets/img/wave.png";
 import galaxy from "../assets/img/galaxy.png";
+import portal from "../assets/img/portal.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -108,6 +109,13 @@ export const Projects = () => {
       imgUrl: galaxy,
       liveDemoUrl:"https://galaxy-threejs-seven.vercel.app/",
       githubUrl:"https://github.com/sara-mohammed96/galaxy-threejs"
+    },
+    {
+      title: "Portal secne",
+      description: "#React_Three_Fiber",
+      imgUrl: portal,
+      liveDemoUrl:"https://portal-scene-kzt3r3wek-sara-mohammed96.vercel.app/",
+      githubUrl:"https://github.com/sara-mohammed96/portal-scene"
     },
   ];
 
